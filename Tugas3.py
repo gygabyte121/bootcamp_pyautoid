@@ -21,12 +21,7 @@ except TimeoutException:
 
 driver.close()
 
-
-
-
-
-
-
+"""
 try:
     WebDriverWait(driver,10).until(EC.title_contains('Google'))
     Tittle = driver.title
@@ -35,3 +30,4 @@ try:
 except TimeoutException:
     print('Tidak Muncul')
     pass
+"""
