@@ -23,6 +23,9 @@ driver.close()
 
 """
 Testing nambah commit
+
+Buat Automation Testing Fitur2
+
 try:
     WebDriverWait(driver,10).until(EC.title_contains('Google'))
     Tittle = driver.title
