@@ -23,7 +23,9 @@ driver.close()
 
 """
 Testing nambah commit
-Tambah Fitur Assert 
+
+Buat Automation Testing Fitur2 dan Tambah Fitur Assert 
+
 
 try:
     WebDriverWait(driver,10).until(EC.title_contains('Google'))
